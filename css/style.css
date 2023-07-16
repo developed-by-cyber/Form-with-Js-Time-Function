@@ -686,7 +686,7 @@ form .inputs .in .show i{
 @media screen and (max-width: 480px) {
     .forms-holder .forms {
         min-width: 390px;
-        min-height: 670px;
+        min-height: 600px;
     }
     .forms-holder .form-landing .top {
         min-height: none;
@@ -700,6 +700,9 @@ form .inputs .in .show i{
     }
     .forms-holder .form-landing .bottom{
         height: 50%;
+    }
+    .sign-up button{
+        padding: 13px 0px;
     }
     .forms-holder .form-landing .bottom p {
         font-size: 17px;
