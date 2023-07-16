@@ -169,9 +169,7 @@ main .particles span {
 }
 
 .forms-holder .forms {
-    background-color: white;
     width: 30%;
-    /* min-width: 350px; */
     height: auto;
     position: fixed;
     position: relative;
@@ -179,7 +177,6 @@ main .particles span {
     z-index: 100;
     border-radius: 10px;
     scale: 90%;
-    /* padding: 20px; */
 }
 
 .forms-holder .form-landing {
@@ -187,12 +184,9 @@ main .particles span {
     height: fit-content;
     background-color: #7576F2;
     border-radius: 10px;
-    /* position: fixed;
-    z-index: 200; */
 }
 
 .forms-holder .form-landing .top {
-    /* height: 50vh; */
     min-height: 400px;
     width: 100%;
     background-color: #F8FAF8;
@@ -275,25 +269,13 @@ main .particles span {
     background-color: transparent;
 }
 
-/* .forms-holder  .sign-up {
-    width: 100%;
-    height: fit-content;
-    padding: 35px 30px;
-    position: absolute;
-    z-index: 1000;
-
-} */
-
 
 .sign-up{
-    /* min-width: 350px; */
     width: 100%;
     height: 100%;
     padding: 35px 30px;
     background-color: #F8FAF8;
     position: absolute;
-    /* top: 0; */
-    /* bottom: 0; */
     bottom: -100%;
     right: -100%;
     border-radius: 100%;
@@ -301,8 +283,6 @@ main .particles span {
     overflow: hidden;
     transform: scale(0);
     transition: 0.4s ease-in-out;
-    /* opacity: .3; */
-    /* display: none; */
 }
 .sign-up .back{
     font-size: 18px;
@@ -500,7 +480,6 @@ form .inputs .in .show i{
 .sign-up button{
     width: 100%;
     padding: 10px 0px;
-    /* height: 7vh; */
     font-size: 15px;
     border-radius: 15px;
     border: none;
@@ -579,7 +558,6 @@ form .inputs .in .show i{
     width: 300px;
     position: absolute;
     top: -70px;
-    /* filter: hue-rotate(20deg); */
     opacity: 0;
 }
 .modal .bt{
@@ -737,7 +715,6 @@ form .inputs .in .show i{
     }
 
 }
-
 @media screen and (max-width: 350px) {
     .forms-holder .forms{
         min-width: 390px;
