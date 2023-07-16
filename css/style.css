@@ -686,7 +686,7 @@ form .inputs .in .show i{
 @media screen and (max-width: 480px) {
     .forms-holder .forms {
         min-width: 390px;
-        min-height: 600px;
+        min-height: 640px;
     }
     .forms-holder .form-landing .top {
         min-height: none;
