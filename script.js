@@ -15,6 +15,15 @@ document.getElementById("btn-signup").addEventListener('click', ()=>{
     form.style.bottom = "0";
     form.style.zIndex = "15";
 });
+document.getElementById("btn-GetStarted").addEventListener('click', ()=>{
+    let form = document.getElementById('form1');
+    form.style.transform = "scale(100%)";
+    form.style.borderRadius = "0";
+    form.style.right = "0";
+    form.style.bottom = "0";
+    form.style.zIndex = "15";
+});
+
 // ===================================//
 // ===================================//
 
