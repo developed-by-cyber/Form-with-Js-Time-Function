@@ -707,7 +707,7 @@ form .inputs .in .show i {
   }
   .forms-holder .form-landing .top {
     min-height: none;
-    height: 55%;
+    height: 70%;
   }
   .forms-holder .form-landing .bottom h1,
   .forms-holder .form-landing .bottom .h1 {
@@ -717,7 +717,7 @@ form .inputs .in .show i {
     margin-top: 15px;
   }
   .forms-holder .form-landing .bottom {
-    height: 45%;
+    height: 30%;
   }
   .sign-up button {
     padding: 13px 0px;
@@ -728,6 +728,7 @@ form .inputs .in .show i {
   .sign-up img {
     width: 85%;
   }
+  
   .sign-in img {
     width: 85%;
   }
