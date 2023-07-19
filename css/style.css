@@ -702,12 +702,12 @@ form .inputs .in .show i {
 
 @media screen and (max-width: 480px) {
   .forms-holder .forms {
-    min-width: 390px;
+    min-width: 410px;
     min-height: 650px;
   }
   .forms-holder .form-landing .top {
     min-height: none;
-    height: 55%;
+    height: 60%;
   }
   .forms-holder .form-landing .bottom h1,
   .forms-holder .form-landing .bottom .h1 {
