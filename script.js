@@ -124,7 +124,7 @@ function Validate(e) {
         bar.style.display = "block";
         Error.innerHTML = "Error : Fill in FullName";
         return false;
-    } else if (!name.trim().match(/^[A-Za-z]*\s {1}[A-Za-z]*$/)) {
+    } else if (!name.trim().match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
         toast.classList.add("anima");
         toast.classList.remove("animaHide");
         bar.classList.add("progress");

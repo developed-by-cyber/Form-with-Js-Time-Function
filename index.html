@@ -1,120 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Time Function</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <link rel="stylesheet" href="./fonts/remixicon.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./fonts/remixicon.css" />
+  </head>
 
-<body>
+  <body>
     <div id="overlay" class="overlay"></div>
     <div id="modal" class="modal">
-        <div class="imm">
-            <img id="sad" class="sad" src="./images/sad.png" alt="sad face">
-            <img id="happy" class="happy" src="./images/happy.png" alt="">
-            <img id="gif" class="gif" src="./images/confetti.gif" alt="">
-        </div>
-        <div class="bt">
-            <h4 id="modal-message"></h4>
-            <button id="closeModal">Okay Got it </button>
-        </div>
+      <div class="imm">
+        <img id="sad" class="sad" src="./images/sad.png" alt="sad face" />
+        <img id="happy" class="happy" src="./images/happy.png" alt="" />
+        <img id="gif" class="gif" src="./images/confetti.gif" alt="" />
+      </div>
+      <div class="bt">
+        <h4 id="modal-message"></h4>
+        <button id="closeModal">Okay Got it</button>
+      </div>
     </div>
     <main>
-        <div class="particles">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+      <div class="particles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-        <!-- Form Sections -->
-        <div class="forms-holder">
-            <div class="forms">
-                <div class="form-landing">
-                    <div class="top">
-                        <img class="svgs" src="./images/new.png" alt="">
-                        <img class="people" src="./images/business-people-discussing-business-idea-5355163-4487279.png"
-                            alt="">
-                    </div>
-                    <div class="bottom">
-                        <h1>Get Started</h1>
-                        <h1 class="h1">With Us.</h1>
-                        <div class="pp">
-                            <p>All your messages in one place</p>
-                            <p>Manage your account in a single dashboard.</p>
-                        </div>
-                        <div class="btn-holder">
-                            <button id="btn-GetStarted">Get Started</button>
-                            <button id="btn-signup" class="btn">Sign up</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sign-up -->
-                <form id="form1" class="sign-up" onsubmit="return Validate()">
-                    <div class="form-hold">
-                        <i id="back" class="fa fa-chevron-left back"></i>
-                        <div id="toast" class="toast">
-                            <div class="tt">
-                                <i class="ri-close-circle-fill"></i>
-                                <span id="error"></span>
-                            </div>
-                            <i onclick="closeToast()" class="ri-close-line"></i>
-                            <div id="bar" class="bar"></div>
-                        </div>
-                        <div class="img-hold">
-                            <img src="./images/ezgif.com-video-to-gif.gif" alt="gif">
-                        </div>
-                        <h1>Sign Up</h1>
-                        <div class="social">
-                            <div class="icons">
-                                <img src="./images/google.png" alt="google">
-                            </div>
-                            <div class="icons">
-                                <img src="./images/facebook.png" alt="facebook">
-                            </div>
-                            <div class="icons">
-                                <img src="./images/apple-black-logo.png" alt="apple">
-                            </div>
-                        </div>
-                        <p>Or, register with email...</p>
-                        <div class="inputs">
-                            <div class="in">
-                                <i class="ri-user-line" aria-hidden="true"></i>
-                                <input type="text" id="name" placeholder="Full Name">
-                            </div>
-                            <div class="in">
-                                <i class="ri-at-line" aria-hidden="true"></i>
-                                <input type="text" id="mail" placeholder="Email ID">
-                            </div>
-                            <div class="in">
-                                <i class="ri-lock-2-line aria-hidden=" true aria-hidden="true"></i>
-                                <input type="password" id="password" placeholder="Password">
-                                <div class="show">
-                                    <i onclick="opener()" class="ri-eye-off-line closed" true aria-hidden="true"
-                                        id="closed"></i>
-                                    <i onclick="closed()" class="ri-eye-line open" true aria-hidden="true"
-                                        id="open"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <button id="btn" type="submit">Sign up</button>
-                    </div>
-                </form>
+      <!-- Form Sections -->
+      <div class="forms-holder">
+        <div class="forms">
+          <div class="form-landing">
+            <div class="top">
+              <img class="svgs" src="./images/new.png" alt="" />
+              <img
+                class="people"
+                src="./images/business-people-discussing-business-idea-5355163-4487279.png"
+                alt=""
+              />
             </div>
+            <div class="bottom">
+              <h1>Get Started</h1>
+              <h1 class="h1">With Us.</h1>
+              <div class="pp">
+                <p>All your messages in one place</p>
+                <p>Manage your account in a single dashboard.</p>
+              </div>
+              <div class="btn-holder">
+                <button id="btn-GetStarted">Get Started</button>
+                <button id="btn-signup" class="btn">Sign up</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sign-up -->
+          <form id="form1" class="sign-up" onsubmit="return Validate()">
+            <div class="form-hold">
+              <i id="back" class="fa fa-chevron-left back"></i>
+              <div id="toast" class="toast">
+                <div class="tt">
+                  <i class="ri-close-circle-fill"></i>
+                  <span id="error"></span>
+                </div>
+                <i onclick="closeToast()" class="ri-close-line"></i>
+                <div id="bar" class="bar"></div>
+              </div>
+              <div class="img-hold">
+                <img src="./images/ezgif.com-video-to-gif.gif" alt="gif" />
+              </div>
+              <h1>Sign Up</h1>
+              <div class="social">
+                <div class="icons">
+                  <img src="./images/google.png" alt="google" />
+                </div>
+                <div class="icons">
+                  <img src="./images/facebook.png" alt="facebook" />
+                </div>
+                <div class="icons">
+                  <img src="./images/apple-black-logo.png" alt="apple" />
+                </div>
+              </div>
+              <p>Or, register with email...</p>
+              <div class="inputs">
+                <div class="in">
+                  <i class="ri-user-line" aria-hidden="true"></i>
+                  <input type="text" id="name" placeholder="Full Name" />
+                </div>
+                <div class="in">
+                  <i class="ri-at-line" aria-hidden="true"></i>
+                  <input type="text" id="mail" placeholder="Email ID" />
+                </div>
+                <div class="in">
+                  <i
+                    class="ri-lock-2-line aria-hidden="
+                    true
+                    aria-hidden="true"
+                  ></i>
+                  <input type="password" id="password" placeholder="Password" />
+                  <div class="show">
+                    <i
+                      onclick="opener()"
+                      class="ri-eye-off-line closed"
+                      true
+                      aria-hidden="true"
+                      id="closed"
+                    ></i>
+                    <i
+                      onclick="closed()"
+                      class="ri-eye-line open"
+                      true
+                      aria-hidden="true"
+                      id="open"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <button id="btn" type="submit">Sign up</button>
+            </div>
+          </form>
         </div>
+      </div>
     </main>
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
