@@ -722,8 +722,11 @@ form .inputs .in .show i {
   .forms-holder .form-landing .bottom {
     height: 45%;
   }
+  .forms-holder .form-landing .bottom .btn-holder button{
+    padding: 15px 0px;
+  }
   .sign-up button {
-    padding: 13px 0px;
+    padding: 14px 0px;
   }
   .forms-holder .form-landing .bottom p {
     font-size: 17px;
