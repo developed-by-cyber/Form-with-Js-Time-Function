@@ -703,11 +703,11 @@ form .inputs .in .show i {
 @media screen and (max-width: 480px) {
   .forms-holder .forms {
     min-width: 410px;
-    min-height: 650px;
+    min-height: 700px;
   }
   .forms-holder .form-landing .top {
     min-height: none;
-    height: 70%;
+    height: 55%;
   }
   .forms-holder .form-landing .bottom h1,
   .forms-holder .form-landing .bottom .h1 {
@@ -717,7 +717,7 @@ form .inputs .in .show i {
     margin-top: 15px;
   }
   .forms-holder .form-landing .bottom {
-    height: 30%;
+    height: 45%;
   }
   .sign-up button {
     padding: 13px 0px;
